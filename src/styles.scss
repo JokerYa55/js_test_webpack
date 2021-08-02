@@ -1,0 +1,33 @@
+$primary-bg: black;
+$form1-bg: aqua;
+body {
+    background-color: $primary-bg;
+}
+
+#app {
+    margin-bottom: 20px;
+}
+
+#form1_id {
+    display: flex;
+    flex-direction: column;
+    background-color: $form1-bg;
+    height: 500px;
+}
+
+.inputItem {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.promt-style {
+    background-color: yellow;
+    position: fixed;
+    right: 35%;
+    top: 15%;
+    width: 347px;
+    height: 160px;
+    display: block;
+    z-index: 99999999;
+}
